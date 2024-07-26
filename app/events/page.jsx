@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const page = () => {
   return (
     <div>
@@ -20,7 +22,7 @@ const page = () => {
 
 
                 </p>
-                <a className="text-indigo-500 inline-flex items-center mt-4">
+                <Link href={"/events/details"} className="text-indigo-500 inline-flex items-center mt-4">
                   Learn More
                   <svg
                     className="w-4 h-4 ml-2"
@@ -34,7 +36,7 @@ const page = () => {
                     <path d="M5 12h14"></path>
                     <path d="M12 5l7 7-7 7"></path>
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="py-8 flex flex-wrap md:flex-nowrap">
@@ -51,7 +53,7 @@ const page = () => {
                 <p className="leading-relaxed">
                 This hands-on workshop will focus on sustainable practices in HVAC. Participants will learn about energy-efficient technologies, sustainable design principles, and how to implement green practices in HVAC systems.
                 </p>
-                <a className="text-indigo-500 inline-flex items-center mt-4">
+                <Link href={"/events/details"} className="text-indigo-500 inline-flex items-center mt-4">
                   Learn More
                   <svg
                     className="w-4 h-4 ml-2"
@@ -65,7 +67,7 @@ const page = () => {
                     <path d="M5 12h14"></path>
                     <path d="M12 5l7 7-7 7"></path>
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="py-8 flex flex-wrap md:flex-nowrap">
@@ -82,7 +84,7 @@ const page = () => {
                 <p className="leading-relaxed">
                 Explore the diverse career opportunities in the HVAC&R industry. This event will feature industry professionals sharing their career journeys, tips for success, and the skills needed to excel in this field.
                 </p>
-                <a className="text-indigo-500 inline-flex items-center mt-4">
+                <Link href={"/events/details"} className="text-indigo-500 inline-flex items-center mt-4">
                   Learn More
                   <svg
                     className="w-4 h-4 ml-2"
@@ -96,7 +98,7 @@ const page = () => {
                     <path d="M5 12h14"></path>
                     <path d="M12 5l7 7-7 7"></path>
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

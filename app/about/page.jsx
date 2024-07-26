@@ -1,4 +1,5 @@
 import OurTeam from "@/components/about/OurTeam";
+import TeamTable from "@/components/about/TeamTable";
 import Image from "next/image";
 
 const page = () => {
@@ -39,6 +40,7 @@ const page = () => {
         </div>
       </section>
       <OurTeam/>
+      <TeamTable/>
     </div>
   );
 };
