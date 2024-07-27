@@ -3,10 +3,10 @@ import Link from "next/link";
 const HomeEvent = () => {
   return (
     <>
-    <h1 className="mx-20 text-xl font-semibold py-5">Events</h1>
+    <h1 className="mx-5 md:mx-20 text-xl font-semibold py-5">Events</h1>
     <div className="flex flex-wrap">
       <div className="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80 mb-4">
-        <Link href="/events" className="block w-full h-full">
+        <Link href="/events/details" className="block w-full h-full">
           <img
             alt="blog photo"
             src="https://i.ibb.co/sggJqCS/banner3.jpg"
@@ -33,7 +33,7 @@ const HomeEvent = () => {
         </Link>
       </div>
       <div className="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80 mb-4">
-        <Link href="/events" className="block w-full h-full">
+        <Link href="/events/details" className="block w-full h-full">
           <img
             alt="blog photo"
             src="https://i.ibb.co/sggJqCS/banner3.jpg"
@@ -60,7 +60,7 @@ const HomeEvent = () => {
         </Link>
       </div>
       <div className="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80 mb-4">
-        <Link href="/events" className="block w-full h-full">
+        <Link href="/events/details" className="block w-full h-full">
           <img
             alt="blog photo"
             src="https://i.ibb.co/sggJqCS/banner3.jpg"

@@ -14,9 +14,9 @@ const page = () => {
                 <span className="mt-1 text-gray-500 text-sm">12 Jun 2019</span>
               </div>
               <div className="md:flex-grow">
-                <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">
+                <Link href={"/events/details"} className="text-2xl font-medium text-gray-900 title-font mb-2">
                 Innovations in HVAC&R Technology
-                </h2>
+                </Link>
                 <p className="leading-relaxed">
                 Join us for a comprehensive seminar on the latest innovations in HVAC&R technology. This event will feature leading experts discussing cutting-edge advancements, new research, and practical applications in the field.
 
@@ -47,9 +47,9 @@ const page = () => {
                 <span className="mt-1 text-gray-500 text-sm">12 Jun 2019</span>
               </div>
               <div className="md:flex-grow">
-                <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">
+                <Link href={"/events/details"} className="text-2xl font-medium text-gray-900 title-font mb-2">
                 Sustainable HVAC Practices Workshop
-                </h2>
+                </Link>
                 <p className="leading-relaxed">
                 This hands-on workshop will focus on sustainable practices in HVAC. Participants will learn about energy-efficient technologies, sustainable design principles, and how to implement green practices in HVAC systems.
                 </p>
@@ -78,9 +78,9 @@ const page = () => {
                 <span className="text-sm text-gray-500">12 Jun 2019</span>
               </div>
               <div className="md:flex-grow">
-                <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">
+                <Link href={"/events/details"} className="text-2xl font-medium text-gray-900 title-font mb-2">
                 Career Paths in HVAC&R
-                </h2>
+                </Link>
                 <p className="leading-relaxed">
                 Explore the diverse career opportunities in the HVAC&R industry. This event will feature industry professionals sharing their career journeys, tips for success, and the skills needed to excel in this field.
                 </p>

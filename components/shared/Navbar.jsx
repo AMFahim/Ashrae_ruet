@@ -1,7 +1,28 @@
+"use client";
 import Link from "next/link";
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 const Navbar = () => {
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const dropdownRef = useRef(null);
+
+  const handleDropdownToggle = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
+
+  const handleClickOutside = (event) => {
+    if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+      setIsDropdownOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
   return (
     <div className="sticky top-0 z-50">
       <div className="navbar bg-transparent shadow-md backdrop-blur-lg">
@@ -45,10 +66,12 @@ const Navbar = () => {
             <li>
               <Link href={"/events"}>Events</Link>
             </li>
-            <li>
-              <details>
-                <summary>More</summary>
-                <ul className="p-2">
+            <li ref={dropdownRef} className="relative">
+              <button onClick={handleDropdownToggle} className="btn btn-ghost">
+                More
+              </button>
+              {isDropdownOpen && (
+                <ul className="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md p-2">
                   <li>
                     <Link href={"/membership"}>Membership</Link>
                   </li>
@@ -58,11 +81,8 @@ const Navbar = () => {
                   <li>
                     <Link href={"/blogs"}>Blog</Link>
                   </li>
-                  {/* <li>
-                    <Link href={"/contact"}>Contact Us</Link>
-                  </li> */}
                 </ul>
-              </details>
+              )}
             </li>
           </ul>
         </div>

@@ -10,7 +10,7 @@ import 'swiper/css/navigation';
 import './styles.css';
 
 // import required modules
-import { Autoplay } from 'swiper/modules';
+import { Autoplay, Navigation } from 'swiper/modules';
 
 // import required modules
 import Image from "next/image";
@@ -34,7 +34,8 @@ const HomeCarousel = () => {
              delay: 2500,
              disableOnInteraction: false,
            }}
-           modules={[Autoplay]}
+           navigation={true}
+           modules={[Autoplay,Navigation]}
         >
           <SwiperSlide className="h-[200px]">
             <Image

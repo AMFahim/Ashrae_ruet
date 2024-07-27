@@ -8,16 +8,16 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main>
+    <main className=" max-w-[1420px] mx-auto">
       {/* classNameName="flex min-h-screen flex-col items-center justify-between p-24" */}
 
-      <marquee className="h-12 bg-gray-500 flex items-center text-white mx-20">
+      <marquee className="h-12 bg-gray-500 flex items-center text-white mx-5 md:mx-20">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus illo
         quod, expedita maiores unde neque eum quis! Odit obcaecati excepturi
         voluptatibus dignissimos.
       </marquee>
       <WelcomeRuetAshrae />
-      <div className="flex gap-3 md:flex-wrap xl:flex-nowrap mx-20">
+      <div className="flex gap-3 justify-center flex-wrap xl:flex-nowrap mx-5 md:mx-20">
         <div className="w-[75%]">
         <HomeCarousel />
         </div>

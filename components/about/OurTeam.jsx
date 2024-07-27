@@ -3,7 +3,7 @@ import React from "react";
 
 const OurTeam = () => {
   return (
-    <div className="mx-20">
+    <div className="mx-5 md:mx-20">
         <h1 className="text-2xl font-bold pb-4">Meet Our team</h1>
       <div className="flex justify-between gap-3 flex-wrap md:flex-nowrap">
         <div className="shadow-lg w-[300px] rounded-xl bg-white border dark:bg-gray-800 p-4">

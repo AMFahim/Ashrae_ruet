@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
+import Link from "next/link";
 
 const HomeGallery = () => {
   const settings = {
@@ -27,11 +28,11 @@ const HomeGallery = () => {
 
   return (
     <>
-    <h1 className="mx-20 text-xl font-bold py-5">Gallery</h1>
-      <div className="slider-container mx-20">
+    <h1 className="mx-5 md:mx-20 text-xl font-bold py-5">Gallery</h1>
+      <div className="slider-container mx-5 md:mx-20">
         <Slider {...settings}>
           {images.map((src, index) => (
-            <div key={index} className="flex justify-center items-center p-2">
+            <Link href={"/gallery"} key={index} className="flex justify-center items-center p-2">
               <div className="w-[300px] h-[200px] relative">
                 <Image
                   src={src}
@@ -41,7 +42,7 @@ const HomeGallery = () => {
                   className="rounded-lg"
                 />
               </div>
-            </div>
+            </Link>
           ))}
         </Slider>
       </div>

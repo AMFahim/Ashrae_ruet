@@ -3,7 +3,7 @@ import React from 'react';
 
 const OurServices = () => {
     return (
-        <div className='mx-20 mt-8'>
+        <div className='mx-5 md:mx-20 mt-8'>
             <h2 className='text-xl font-semibold '>All Sections</h2>
             <div className='grid grid-cols-3 gap-3 mt-3'>
                 <Link href={"/gallery"}><button className="btn btn-outline w-full">Gallery</button>
