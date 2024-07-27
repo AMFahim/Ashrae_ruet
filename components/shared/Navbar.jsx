@@ -67,7 +67,7 @@ const Navbar = () => {
               <Link href={"/events"}>Events</Link>
             </li>
             <li ref={dropdownRef} className="relative">
-              <button onClick={handleDropdownToggle} className="btn btn-ghost">
+              <button onClick={handleDropdownToggle} className="btn btn-ghost -mt-1">
                 More
               </button>
               {isDropdownOpen && (
