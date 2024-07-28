@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useEffect, useRef } from "react";
 
@@ -56,7 +57,14 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <Link href={"/"} className="btn btn-ghost text-xl">Ashrae</Link>
+          <Link href={"/"} >
+          <Image 
+          src={"/ashraeLogo.jpg"}
+          width={100}
+          height={100}
+          alt="Ashrae logo"
+          />
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">

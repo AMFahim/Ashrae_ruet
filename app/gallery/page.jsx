@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import UiModal from '@/components/Ui/UiModal';
+import Link from 'next/link';
 
 const Page = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -31,68 +32,68 @@ const Page = () => {
           </div>
           <div className="flex flex-wrap md:-m-2 -m-1">
             <div className="flex flex-wrap w-1/2">
-              <div className="md:p-2 p-1 w-1/2">
+              <Link href={"/gallery/details"} className="md:p-2 p-1 w-1/2">
                 <Image
                   src="/image2.jpg"
                   width={1000}
                   height={300}
                   alt="banner"
                   className="w-full object-cover h-full object-center block cursor-pointer"
-                  onClick={() => openModal('/image2.jpg')}
+                  // onClick={() => openModal('/image2.jpg')}
                 />
-              </div>
-              <div className="md:p-2 p-1 w-1/2">
+              </Link>
+              <Link href={"/gallery/details"} className="md:p-2 p-1 w-1/2">
                 <Image
                   src="/image2.jpg"
                   width={1000}
                   height={300}
                   alt="banner"
                   className="w-full object-cover h-full object-center block cursor-pointer"
-                  onClick={() => openModal('/image2.jpg')}
+                  // onClick={() => openModal('/image2.jpg')}
                 />
-              </div>
-              <div className="md:p-2 p-1 w-full">
+              </Link>
+              <Link href={"/gallery/details"} className="md:p-2 p-1 w-full">
                 <Image
                   src="/image1.jpg"
                   width={1000}
                   height={300}
                   alt="banner"
                   className="w-full object-cover h-full object-center block cursor-pointer"
-                  onClick={() => openModal('/image1.jpg')}
+                  // onClick={() => openModal('/image1.jpg')}
                 />
-              </div>
+              </Link>
             </div>
             <div className="flex flex-wrap w-1/2">
-              <div className="md:p-2 p-1 w-full">
+              <Link href={"/gallery/details"} className="md:p-2 p-1 w-full">
                 <Image
                   src="/image1.jpg"
                   width={1000}
                   height={300}
                   alt="banner"
                   className="w-full object-cover h-full object-center block cursor-pointer"
-                  onClick={() => openModal('/image1.jpg')}
+                  // onClick={() => openModal('/image1.jpg')}
                 />
-              </div>
-              <div className="md:p-2 p-1 w-1/2">
+              </Link>
+              <Link href={"/gallery/details"} className="md:p-2 p-1 w-1/2">
                 <Image
                   src="/image3.jpg"
                   width={1000}
                   height={300}
                   alt="banner"
                   className="w-full object-cover h-full object-center block cursor-pointer"
-                  onClick={() => openModal('/image3.jpg')}
+                  // onClick={() => openModal('/image3.jpg')}
                 />
-              </div>
-              <div className="md:p-2 p-1 w-1/2">
+              </Link>
+              <Link href={"/gallery/details"} className="md:p-2 p-1 w-1/2">
                 <Image
                   src="/image2.jpg"
                   width={1000}
                   height={300}
                   alt="banner"
                   className="w-full object-cover h-full object-center block cursor-pointer"
-                  onClick={() => openModal('/image2.jpg')}
+                  // onClick={() => openModal('/image2.jpg')}
                 />
-              </div>
+              </Link>
             </div>
           </div>
         </div>

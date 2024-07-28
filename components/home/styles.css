@@ -41,3 +41,25 @@
     background-color: transparent; /* Color of the scrollbar track */
   }
   
+
+  /* Custom Swiper navigation buttons */
+.swiper-button-next,
+.swiper-button-prev {
+  color: white; /* Change color to white */
+  width: 25px; /* Adjust the width of the navigation button */
+  height: 25px; /* Adjust the height of the navigation button */
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 16px; /* Adjust the size of the icon */
+}
+
+.swiper-button-next:hover{
+  color: black;
+  background-color: white;
+}
+.swiper-button-prev:hover{
+  color: black;
+  background-color: white;
+}
