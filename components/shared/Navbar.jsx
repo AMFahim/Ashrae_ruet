@@ -2,6 +2,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useEffect, useRef } from "react";
+import { MdOutlineNotificationAdd } from "react-icons/md";
+
 
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -25,7 +27,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="sticky top-0 z-50">
+    <div className="sticky top-0 z-50 ">
       <div className="navbar bg-transparent shadow-md backdrop-blur-lg">
         <div className="navbar-start">
           <div className="dropdown">
@@ -57,13 +59,13 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <Link href={"/"} >
-          <Image 
-          src={"/ashraeLogo.jpg"}
-          width={100}
-          height={100}
-          alt="Ashrae logo"
-          />
+          <Link href={"/"}>
+            <Image
+              src={"/ashrae-logo.png"}
+              width={100}
+              height={100}
+              alt="Ashrae logo"
+            />
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -74,8 +76,20 @@ const Navbar = () => {
             <li>
               <Link href={"/events"}>Events</Link>
             </li>
-            <li ref={dropdownRef} className="relative">
-              <button onClick={handleDropdownToggle} className="btn btn-ghost -mt-1">
+            <li>
+              <Link href={"/membership"}>Membership</Link>
+            </li>
+            <li>
+              <Link href={"/gallery"}>Gallery</Link>
+            </li>
+            <li>
+              <Link href={"/blogs"}>Blogs</Link>
+            </li>
+            {/* <li ref={dropdownRef} className="relative">
+              <button
+                onClick={handleDropdownToggle}
+                className="btn btn-ghost -mt-1"
+              >
                 More
               </button>
               {isDropdownOpen && (
@@ -91,11 +105,13 @@ const Navbar = () => {
                   </li>
                 </ul>
               )}
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className="navbar-end">
-          <Link href={"/newsupdates"} className="btn">News and updates</Link>
+          <Link href={"/newsupdates"} className="btn">
+          <MdOutlineNotificationAdd className="text-2xl"/>
+          </Link>
         </div>
       </div>
     </div>

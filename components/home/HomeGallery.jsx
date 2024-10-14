@@ -7,7 +7,6 @@ import Link from "next/link";
 
 const HomeGallery = () => {
   const settings = {
-    // dots: true,
     infinite: true,
     slidesToShow: 3.5,
     slidesToScroll: 1,
@@ -18,29 +17,32 @@ const HomeGallery = () => {
   };
 
   const images = [
-    "/image1.jpg",
-    "/image2.jpg",
-    "/image3.jpg",
-    "/image1.jpg",
-    "/image2.jpg",
-    "/image3.jpg",
+    { src: "/image1.jpg", text: "Lorem ipsum dolor sit amet." },
+    { src: "/image2.jpg", text: "Lorem ipsum dolor sit amet." },
+    { src: "/image3.jpg", text: "Lorem ipsum dolor sit amet." },
+    { src: "/image1.jpg", text: "Lorem ipsum dolor sit amet." },
+    { src: "/image2.jpg", text: "Lorem ipsum dolor sit amet." },
+    { src: "/image3.jpg", text: "Lorem ipsum dolor sit amet." },
   ];
 
   return (
     <>
-    <h1 className="mx-5 md:mx-20 text-xl font-bold py-5">Gallery</h1>
+      <h1 className="mx-5 md:mx-16 text-2xl font-bold py-5">Gallery</h1>
       <div className="slider-container mx-5 md:mx-20">
         <Slider {...settings}>
-          {images.map((src, index) => (
+          {images.map((image, index) => (
             <Link href={"/gallery"} key={index} className="flex justify-center items-center p-2">
               <div className="w-[300px] h-[200px] relative">
                 <Image
-                  src={src}
+                  src={image.src}
                   alt={`banner ${index + 1}`}
                   layout="fill"
                   objectFit="cover"
                   className="rounded-lg"
                 />
+                <div className="absolute bottom-0 left-0 right-0 bg-gray-800 bg-opacity-75 text-white py-2 px-4 rounded-b-lg">
+                  <p className="text-sm font-semibold">{image.text}</p>
+                </div>
               </div>
             </Link>
           ))}

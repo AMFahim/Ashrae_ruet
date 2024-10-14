@@ -23,8 +23,8 @@ const HomeCarousel = () => {
 
   return (
     <>
-     <div>
-     <div className="h-[350px] bg-cover">
+     <div className="">
+     <div className="h-[350px] bg-cover ">
         <Swiper
            spaceBetween={30}
            centeredSlides={true}

@@ -99,6 +99,14 @@ const Page = () => {
         </div>
       </section>
       <UiModal isOpen={isModalOpen} onClose={closeModal} imageSrc={modalImageSrc} />
+
+
+      <h2 className='ml-16 text-3xl font-semibold'>Video Gallery</h2>
+      <div className='mx-16 flex gap-4 mt-6'>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/2vZCPttIsmw?si=nVIMsx5YmVLJuCW2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/2vZCPttIsmw?si=nVIMsx5YmVLJuCW2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/2vZCPttIsmw?si=nVIMsx5YmVLJuCW2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
     </div>
   );
 };

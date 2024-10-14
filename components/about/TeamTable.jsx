@@ -44,7 +44,7 @@ const TeamTable = () => {
                           <a href="#" className="relative block">
                             <img
                               alt="profil"
-                              src="/team1.jpg"
+                              src="https://i.ibb.co.com/F587Vn7/team1.jpg"
                               className="mx-auto object-cover rounded-full h-10 w-10 "
                             />
                           </a>
@@ -81,7 +81,7 @@ const TeamTable = () => {
                           <a href="#" className="relative block">
                             <img
                               alt="profil"
-                              src="/team1.jpg"
+                              src="https://i.ibb.co.com/F587Vn7/team1.jpg"
                               className="mx-auto object-cover rounded-full h-10 w-10 "
                             />
                           </a>
@@ -120,7 +120,7 @@ const TeamTable = () => {
                           <a href="#" className="relative block">
                             <img
                               alt="profil"
-                              src="/team1.jpg"
+                              src="https://i.ibb.co.com/F587Vn7/team1.jpg"
                               className="mx-auto object-cover rounded-full h-10 w-10 "
                             />
                           </a>
@@ -159,7 +159,7 @@ const TeamTable = () => {
                           <a href="#" className="relative block">
                             <img
                               alt="profil"
-                              src="/team1.jpg"
+                              src="https://i.ibb.co.com/F587Vn7/team1.jpg"
                               className="mx-auto object-cover rounded-full h-10 w-10 "
                             />
                           </a>
@@ -196,7 +196,7 @@ const TeamTable = () => {
                           <a href="#" className="relative block">
                             <img
                               alt="profil"
-                              src="/team1.jpg"
+                              src="https://i.ibb.co.com/F587Vn7/team1.jpg"
                               className="mx-auto object-cover rounded-full h-10 w-10 "
                             />
                           </a>
@@ -233,7 +233,7 @@ const TeamTable = () => {
                           <a href="#" className="relative block">
                             <img
                               alt="profil"
-                              src="/team1.jpg"
+                              src="https://i.ibb.co.com/F587Vn7/team1.jpg"
                               className="mx-auto object-cover rounded-full h-10 w-10 "
                             />
                           </a>

@@ -1,10 +1,10 @@
-import Link from "next/link";
 import React from "react";
+import Link from "next/link";
 
-const BlogCards = () => {
+const HomeBlogCards = () => {
   return (
     <div>
-      <h1 className="mx-16 text-4xl font-bold py-8">Blogs</h1>
+      <h1 className="mx-16 text-2xl font-bold py-8">Blogs</h1>
       <section className="text-gray-600 body-font">
         <div className="container px-5 pb-12 mx-auto">
           <div className="flex flex-wrap lg:flex-nowrap -m-4 gap-3">
@@ -239,4 +239,4 @@ const BlogCards = () => {
   );
 };
 
-export default BlogCards;
+export default HomeBlogCards;
