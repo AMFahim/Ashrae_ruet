@@ -95,6 +95,39 @@ const Page = () => {
                 />
               </Link>
             </div>
+
+            <div className="flex flex-wrap ">
+              <Link href={"/gallery/details"} className="md:p-2 p-1 w-1/2">
+                <Image
+                  src="/gallery1.jpeg"
+                  width={1000}
+                  height={300}
+                  alt="banner"
+                  className="w-full object-cover h-full object-center block cursor-pointer"
+                  // onClick={() => openModal('/image2.jpg')}
+                />
+              </Link>
+              <Link href={"/gallery/details"} className="md:p-2 p-1 w-1/2">
+                <Image
+                  src="/gallery2.jpeg"
+                  width={1000}
+                  height={300}
+                  alt="banner"
+                  className="w-full object-cover h-full object-center block cursor-pointer"
+                  // onClick={() => openModal('/image2.jpg')}
+                />
+              </Link>
+              <Link href={"/gallery/details"} className="md:p-2 p-1 w-full">
+                <Image
+                  src="/gallery3.jpeg"
+                  width={1000}
+                  height={300}
+                  alt="banner"
+                  className="w-full object-cover h-full object-center block cursor-pointer"
+                  // onClick={() => openModal('/image1.jpg')}
+                />
+              </Link>
+            </div>
           </div>
         </div>
       </section>

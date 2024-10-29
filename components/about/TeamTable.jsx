@@ -51,7 +51,7 @@ const TeamTable = () => {
                         </div>
                         <div className="ml-3">
                           <p className="text-gray-900 whitespace-no-wrap">
-                            Jean marc
+                          MD. Humayun Kabir Jim
                           </p>
                         </div>
                       </div>
@@ -88,7 +88,7 @@ const TeamTable = () => {
                         </div>
                         <div className="ml-3">
                           <p className="text-gray-900 whitespace-no-wrap">
-                            Marcus coco
+                          MD. Taqi Tajwar Mahmud
                           </p>
                         </div>
                       </div>
@@ -127,14 +127,14 @@ const TeamTable = () => {
                         </div>
                         <div className="ml-3">
                           <p className="text-gray-900 whitespace-no-wrap">
-                            Ecric marc
+                          Ahanaf Zaman Zarif
                           </p>
                         </div>
                       </div>
                     </td>
                     <td className="px-5 py-5 text-sm bg-white border-b border-gray-200">
                       <p className="text-gray-900 whitespace-no-wrap">
-                        Secretary
+                      General Secretary
                       </p>
                     </td>
                     <td className="px-5 py-5 text-sm bg-white border-b border-gray-200">
@@ -166,13 +166,14 @@ const TeamTable = () => {
                         </div>
                         <div className="ml-3">
                           <p className="text-gray-900 whitespace-no-wrap">
-                            Julien Huger
+                          Afride Ahsan
                           </p>
                         </div>
                       </div>
                     </td>
                     <td className="px-5 py-5 text-sm bg-white border-b border-gray-200">
-                      <p className="text-gray-900 whitespace-no-wrap">General Member</p>
+                      <p className="text-gray-900 whitespace-no-wrap">News & Publication Head
+                      </p>
                     </td>
                     <td className="px-5 py-5 text-sm bg-white border-b border-gray-200">
                       <p className="text-gray-900 whitespace-no-wrap">
@@ -203,13 +204,13 @@ const TeamTable = () => {
                         </div>
                         <div className="ml-3">
                           <p className="text-gray-900 whitespace-no-wrap">
-                            Julien Huger
+                          MD. Jafrul Hassan
                           </p>
                         </div>
                       </div>
                     </td>
                     <td className="px-5 py-5 text-sm bg-white border-b border-gray-200">
-                      <p className="text-gray-900 whitespace-no-wrap">General Member</p>
+                      <p className="text-gray-900 whitespace-no-wrap">Development Committee Head</p>
                     </td>
                     <td className="px-5 py-5 text-sm bg-white border-b border-gray-200">
                       <p className="text-gray-900 whitespace-no-wrap">
@@ -240,13 +241,50 @@ const TeamTable = () => {
                         </div>
                         <div className="ml-3">
                           <p className="text-gray-900 whitespace-no-wrap">
-                            Julien Huger
+                          Nafisa Tabassum
                           </p>
                         </div>
                       </div>
                     </td>
                     <td className="px-5 py-5 text-sm bg-white border-b border-gray-200">
-                      <p className="text-gray-900 whitespace-no-wrap">General Member</p>
+                      <p className="text-gray-900 whitespace-no-wrap">Joint Secretary</p>
+                    </td>
+                    <td className="px-5 py-5 text-sm bg-white border-b border-gray-200">
+                      <p className="text-gray-900 whitespace-no-wrap">
+                        23/09/2010
+                      </p>
+                    </td>
+                    <td className="px-5 py-5 text-sm bg-white border-b border-gray-200">
+                      <span className="relative inline-block px-3 py-1 font-semibold leading-tight text-green-900">
+                        <span
+                          aria-hidden="true"
+                          className="absolute inset-0 bg-green-200 rounded-full opacity-50"
+                        ></span>
+                        <span className="relative">active</span>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-5 py-5 text-sm bg-white border-b border-gray-200">
+                      <div className="flex items-center">
+                        <div className="flex-shrink-0">
+                          <a href="#" className="relative block">
+                            <img
+                              alt="profil"
+                              src="https://i.ibb.co.com/F587Vn7/team1.jpg"
+                              className="mx-auto object-cover rounded-full h-10 w-10 "
+                            />
+                          </a>
+                        </div>
+                        <div className="ml-3">
+                          <p className="text-gray-900 whitespace-no-wrap">
+                          Md. Kabir Hossain Mridha
+                          </p>
+                        </div>
+                      </div>
+                    </td>
+                    <td className="px-5 py-5 text-sm bg-white border-b border-gray-200">
+                      <p className="text-gray-900 whitespace-no-wrap">Treasurer</p>
                     </td>
                     <td className="px-5 py-5 text-sm bg-white border-b border-gray-200">
                       <p className="text-gray-900 whitespace-no-wrap">

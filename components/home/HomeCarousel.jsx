@@ -63,6 +63,14 @@ const HomeCarousel = () => {
               alt="banner"
             />
           </SwiperSlide>
+           <SwiperSlide className="h-[200px]">
+            <Image
+              src={"/gallery3.jpeg"}
+              width={1000}
+              height={300}
+              alt="banner"
+            />
+          </SwiperSlide>
         </Swiper>
       </div>
      </div>
